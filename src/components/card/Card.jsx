@@ -9,12 +9,12 @@ import chat from '../../icons/chat.png'
 function Card({item}) {
     return (
         <div className="card">
-            <Link to={`/${item.id}`} className='imageContainer'>
+            <Link to={`/react-estate-ui/${item.id}`} className='imageContainer'>
                 <img src={item.img} alt="" />
             </Link>
             <div className="textContainer">
                 <h2 className="title">
-                    <Link to={`/${item.id}`}>{item.title }</Link>
+                    <Link to={`/react-estate-ui/${item.id}`}>{item.title }</Link>
                 </h2>
                 <p className='address'>
                     <img src={pin} alt="" />
