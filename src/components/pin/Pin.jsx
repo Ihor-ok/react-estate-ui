@@ -31,8 +31,8 @@ function Pin({ item }) {
             <div className="popupContainer">
                <img src={item.img} alt="" />
                <div className="textContainer">
-                   <Link to={`/${item.id}`}>{item.title}</Link>
-                   <span className='bed'>{item.bedroom} bedroom</span>
+                   <Link to={`/react-estate-ui/${item.id}`}>{item.title}</Link>
+                   <span >{item.bedroom} bedroom</span>
                    <b>$ { item.price}</b>
                </div>
             </div>
