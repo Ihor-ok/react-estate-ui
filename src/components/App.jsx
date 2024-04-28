@@ -3,8 +3,9 @@ import HomePage from 'routes/homePage/homePage';
 import Navbar from './Navbar/Navbar';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import ListPage from 'routes/listPage/listPage';
-import Layout from './layout/layout';
+import Layout from '../routes/layout/layout';
 import SinglePage from './singlePage/singlePage';
+import ProfilePage from 'routes/profilePage/profilePage';
 
 export const App = () => {
 
@@ -24,6 +25,10 @@ export const App = () => {
         {
           path: "/react-estate-ui/:id",
           element:<SinglePage/>
+        },
+        {
+          path: "/react-estate-ui/profile",
+          element:<ProfilePage/>
         }
       ]
     },
