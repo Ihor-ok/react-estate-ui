@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-estate-ui/static/css/main.49f128bb.css",
-    "main.js": "/react-estate-ui/static/js/main.4605f97a.js",
+    "main.css": "/react-estate-ui/static/css/main.6052149a.css",
+    "main.js": "/react-estate-ui/static/js/main.c48ce3ae.js",
     "static/media/bg.png": "/react-estate-ui/static/media/bg.90e2bcc26889586da4eb.png",
     "index.html": "/react-estate-ui/index.html",
-    "main.49f128bb.css.map": "/react-estate-ui/static/css/main.49f128bb.css.map",
-    "main.4605f97a.js.map": "/react-estate-ui/static/js/main.4605f97a.js.map"
+    "main.6052149a.css.map": "/react-estate-ui/static/css/main.6052149a.css.map",
+    "main.c48ce3ae.js.map": "/react-estate-ui/static/js/main.c48ce3ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.49f128bb.css",
-    "static/js/main.4605f97a.js"
+    "static/css/main.6052149a.css",
+    "static/js/main.c48ce3ae.js"
   ]
 }
