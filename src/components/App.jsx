@@ -11,23 +11,23 @@ export const App = () => {
 
   const router = createBrowserRouter([
     {
-      path: "/react-estate-ui",
+      path: "/",
       element: (<Layout />),
       children: [
         {
-          path: "/react-estate-ui",
+          path: "/",
           element:<HomePage/>
         },
         {
-          path: "/react-estate-ui/list",
+          path: "/list",
           element:<ListPage/>
         },
         {
-          path: "/react-estate-ui/:id",
+          path: "/:id",
           element:<SinglePage/>
         },
         {
-          path: "/react-estate-ui/profile",
+          path: "/profile",
           element:<ProfilePage/>
         }
       ]
